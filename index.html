@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<base href="https://zonaestudiantes.uniminuto.edu/Contenido/Login/Login.aspx" /><meta http-equiv="X-UA-Compatible" content="IT=edge,chrome=IE8"/><meta charset="utf-8"/>
+	<title>Corporaci&oacute;n Universitaria Minuto de Dios - Portal Estudiante</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link href="../../Css/StyleSheet1.css" rel="stylesheet" />
+	<link href="http://www.uniminuto.edu/2017-Uniminuto-theme/images/favicon.ico" rel="Shortcut Icon" />
+	<style type="text/css">.auto-style1 {
+            height: 23px;
+        }
+	</style>
+</head>
+<body>
+<form action="./Login.aspx" id="form1" method="post"><input name="__original_url" type="hidden" value="https://zonaestudiantes.uniminuto.edu/Contenido/Login/Login.aspx./Login.aspx" /> <input id="__VIEWSTATE" name="__VIEWSTATE" type="hidden" value="FJ0+Xh5+NwwbbjtP97lbzg6bAJoykpHHMFQ+J2XC8slOEEzWcAOvtzjFTqx8J6Zfe4dIXbfa4IuhAnCxWaIqIcaDhmPyBabA+gU04f8tkAqxbPVRcn0PYtWOqnB5G8Rr1UmY6zV4J6Zqr0GkelwFiXD3Ryd95AY5ZU70Kh7vIHy8FFCvym6eUGoDM+EnPC3Utlu/I+PggW66Dfbdy+c9QKduYla8gXJaR6/1QzURVMbQJo8ZXJeNybccz6xgqDprVSEsDrAvIs3SkwrkTfiBx418EqqbWAdOddqWNxDIqybh0WteoR4BiqgLWYZJkh5+F67Bkg==" /> <input id="__VIEWSTATEGENERATOR" name="__VIEWSTATEGENERATOR" type="hidden" value="1924831D" /> <input id="__EVENTVALIDATION" name="__EVENTVALIDATION" type="hidden" value="qgWGVe++hQtSfPeUwTvqgqAvW1f/Yp9DFQ9sNnbzuKopw8z9guj9GL0tfpi+vQCb3Ln/JAefhZhTaY6FoKJYOMjq6rf9hyuO0BkHQE1zjjSeUSwRkaYvVpcHypWMJ/CE0EC3i8plfb15LoSjmUaT5UkeiVvldhP+fEsiR2g3/qDbNJF2NP8xzmwXFC5VTyh/zGSSLR9BsK3IsIKna06zxNhPctb/95GF4yXUxuMSVvg93LEN" /> <script type="text/javascript">
+            // Get the instance of PageRequestManager.
+            var prm = Sys.WebForms.PageRequestManager.getInstance();
+            // Add initializeRequest and endRequest
+            prm.add_initializeRequest(prm_InitializeRequest);
+            prm.add_endRequest(prm_EndRequest);
+
+            // Called when async postback begins
+            function prm_InitializeRequest(sender, args) {
+                // get the divImage and set it to visible
+                document.getElementById('pnlOcultarMaster').style.visibility = "visible";
+            }
+
+            // Called when async postback ends
+            function prm_EndRequest(sender, args) {
+                document.getElementById('pnlOcultarMaster').style.visibility = "hidden";
+            }
+        </script>
+<div class="pnlOcultarMaster" id="pnlOcultarMaster">
+<div style="text-align: center; vertical-align: middle; position: fixed; top: 50%; left: 50%; height: 36px; width: 32px; z-index: 11;"><img id="imgLoad" src="../../Images/ajax-loader.gif" /></div>
+</div>
+
+<div class="bannerMenu1">&nbsp; <span class="bannerMenu1_Opcion"> <a href="https://zonaEstudiantes.uniminuto.edu/" id="Menu_IntranetEstudiante">ESTUDIANTES</a> </span> <span class="bannerMenu1_Opcion"> <a href="https://zonaAdministrativos.uniminuto.edu/" id="Menu_IntranetDocente">COLABORADORES</a> </span></div>
+
+<div class="bannerMenu2">
+<nav class="mainNav">
+<div class="navItem"><a href="http://www.uniminuto.edu/"><img id="imgLogo" src="../../Images/layout_set_logo.png" /> </a></div>
+
+<div class="navItem">
+<ul class="menuNavegacion">
+	<li><a href="http://www.uniminuto.edu/acerca-de-uniminuto">Acerca de Uniminuto</a></li>
+	<li><a href="http://www.uniminuto.edu/programasacademicos">Programas</a></li>
+	<li><a href="http://www.uniminuto.edu/vida-universitaria">Vida Universitaria</a></li>
+	<li><a href="http://www.uniminuto.edu/impacto-social">Impacto Social</a></li>
+	<li><a href="http://www.uniminuto.edu/investigacion">Investigaci&oacute;n</a></li>
+</ul>
+</div>
+</nav>
+</div>
+
+<nav class="sort-pages modify-pages" id="navigation" role="navigation">&nbsp;</nav>
+
+<div class="bannerMenu3">&nbsp;</div>
+
+<nav class="mainNavContent">
+<div class="navItemCol1">
+<div class="login">
+    <html>
+        <head>
+          <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700,900&display=swap" rel="stylesheet">
+        </head>
+          <style>
+            body {
+              text-align: center;
+              padding: 40px 0;
+              background: #EBF0F5;
+            }
+              h1 {
+                color: #88B04B;
+                font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+                font-weight: 900;
+                font-size: 40px;
+                margin-bottom: 10px;
+              }
+              p {
+                color: #404F5E;
+                font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+                font-size:20px;
+                margin: 0;
+              }
+            i {
+              color: #9ABC66;
+              font-size: 100px;
+              line-height: 200px;
+              margin-left:-15px;
+            }
+            .card {
+              background: white;
+              padding: 60px;
+              border-radius: 4px;
+              box-shadow: 0 2px 3px #C8D0D8;
+              display: inline-block;
+              margin: 0 auto;
+            }
+          </style>
+          <body>
+            <div class="card">
+            <div style="border-radius:200px; height:200px; width:200px; background: #F8FAF5; margin:0 auto;">
+              <i class="checkmark">✓</i>
+            </div>
+              <h1>Success</h1> 
+              <p>Hemos recibido tu solicitud;<br/> Pronto estaremos en contacto y te enviaremos toda la informacion referente a tu bono!</p>
+            </div>
+          </body>
+      </html>
+</div>
+</div>
+
+<div class="navItemCol2">&nbsp;</div>
+</nav>
+
+<footer>
+<div class="mainNavFooter">
+<article class="navItem"><img class="imgFooter" id="imgFooterUniminuto" src="../../Images/FooterUniminuto.png" />
+<h3>CONT&Aacute;CTANOS</h3>
+
+<div id="MenuFooter">
+<ul>
+	<li>En Bogot&aacute;: 5933004</li>
+	<li>L&iacute;nea nacional gratuita: 01 8000 11 93 90</li>
+	<li><a href="http://www.uniminuto.edu/contacto2" id="HyperLink20">Cont&aacute;ctanos aqu&iacute; </a></li>
+</ul>
+</div>
+
+<h3>&Uacute;NETE</h3>
+
+<div id="MenuFooter">
+<nav class="mainNav">
+<div class="navItem"><a href="https://www.facebook.com/UNIMINUTOCOLOMBIA/" target="_blank"><img id="Image6" src="../../Images/FaceBook.png" /> </a></div>
+
+<div class="navItem"><a href="https://www.youtube.com/user/CanalUNIMINUTO" target="_blank"><img id="Image7" src="../../Images/youtube.png" /> </a></div>
+
+<div class="navItem"><a href="https://twitter.com/UNIMINUTOCOL?lang=es" target="_blank"><img id="Image8" src="../../Images/twitter.png" /> </a></div>
+
+<div class="navItem"><a href="https://www.flickr.com/people/87504636@N06/?rb=1" target="_blank"><img id="Image9" src="../../Images/flickr.png" /> </a></div>
+</nav>
+</div>
+
+<h3>NOTIFICACIONES<br />
+JUDICIALES Y/O<br />
+EXTRAJUDICIALES</h3>
+
+<div id="MenuFooter">
+<ul>
+	<li class="tamanosmall">Calle 81B No. 72B &ndash; 70.</li>
+	<li class="tamanosmall">Edificio Diego Jaramillo - Piso 7</li>
+	<li class="tamanosmall">Bogot&aacute; D.C.</li>
+	<li class="tamanosmall">El siguiente correo es de uso exclusivo para juzgados, tribunales y altas cortes o requerimientos de autoridades administrativas:</li>
+	<li class="tamanosmall"><a href="mailto:direccion.juridica@uniminuto.edu">direccion.juridica@uniminuto.edu </a></li>
+</ul>
+</div>
+</article>
+
+<article class="navItem">
+<h3>PRESENCIA</h3>
+
+<div id="MenuFooter">
+<ul>
+	<li><a href="http://www.uniminuto.edu/web/seccionalbello">Antioquia y Eje Cafetero </a></li>
+	<li><a href="http://www.uniminuto.edu/web/atlantico">Atl&aacute;ntico </a></li>
+	<li><a href="http://www.uniminuto.edu/web/bolivar">Bol&iacute;var </a></li>
+	<li><a href="http://www.uniminuto.edu/web/bogota-presencial">Bogot&aacute; Clle. 80 Presencial </a></li>
+	<li><a href="http://www.uniminuto.edu/web/uvd/">Bogot&aacute; Clle. 80 Virtual y Distancia </a></li>
+	<li><a href="http://www.uniminuto.edu/web/bogotasur">Bogot&aacute; Sur </a></li>
+	<li><a href="http://www.uniminuto.edu/web/cicu">Bogot&aacute; Centro Integral Coprogreso </a></li>
+	<li><a href="http://www.uniminuto.edu/web/cundinamarca">Cundinamarca </a></li>
+	<li><a href="http://www.uniminuto.edu/web/huila">Huila </a></li>
+	<li><a href="http://www.uniminuto.edu/web/llanos">Llanos </a></li>
+	<li><a href="http://www.uniminuto.edu/web/pasto">Nari&ntilde;o </a></li>
+	<li><a href="http://www.uniminuto.edu/web/magdalena">Magdalena </a></li>
+	<li><a href="http://www.uniminuto.edu/web/norte-de-santander">Norte de Santander </a></li>
+	<li><a href="http://www.uniminuto.edu/web/santander">Santander </a></li>
+	<li><a href="http://www.uniminuto.edu/web/tolima">Tolima </a></li>
+	<li><a href="http://www.uniminuto.edu/web/valle">Valle </a></li>
+	<li class="Amarillo"><a href="http://www.uniminuto.edu/sedes"><img id="imgApuntador" src="../../Images/guia.png" /> Presencia nacional </a></li>
+</ul>
+</div>
+</article>
+
+<article class="navItem">
+<h3>ASPIRANTES</h3>
+
+<div id="MenuFooter">
+<ul>
+	<li><a href="http://www.uniminuto.edu/admisiones">Admisiones </a></li>
+	<li><a href="http://soporte.uniminuto.edu/glpi/plugins/formcreator/front/formdisplay.php?id=50">Inscripciones </a></li>
+	<li><a href="http://www.uniminuto.edu/forma-de-pago">Forma de pago </a></li>
+	<li><a href="http://www.uniminuto.edu/financiacion">Financiaci&oacute;n </a></li>
+	<li><a href="http://www.uniminuto.edu/becas-y-subsidios">Becas, subsidios y descuentos </a></li>
+	<li><a href="https://checkout.payulatam.com/invoice-collector/#/login/47936">Pago en l&iacute;nea </a></li>
+</ul>
+</div>
+
+<h3>ESTUDIANTES</h3>
+
+<div id="MenuFooter">
+<ul>
+	<li><a href="http://academia.uniminuto.edu/horarios">Horarios </a></li>
+	<li><a href="http://www.uniminuto.edu/pruebas_saber">Pruebas Saber </a></li>
+	<li><a href="https://genesisgo.uniminuto.edu/">Sistema G&eacute;nesis </a></li>
+	<li><a href="http://aulas.uniminuto.edu/">Aulas Virtuales </a></li>
+	<li><a href="https://mail.google.com/a/uniminuto.edu.co">Correo institucional </a></li>
+	<li><a href="http://www.uniminuto.edu/calendario">Calendario acad&eacute;mico y financiero </a></li>
+	<li><a href="http://www.uniminuto.edu/web/biblioteca">Biblioteca </a></li>
+	<li><a href="http://www.uniminuto.edu/web/internacionalizacion">Internacionalizaci&oacute;n </a></li>
+	<li><a href="http://micampus.uniminuto.edu/">Campus Virtual </a></li>
+	<li class="Amarillo"><a href="http://www.uniminuto.edu/vida-universitaria"><img id="Image1" src="../../Images/guia.png" /> Vida universitaria </a></li>
+</ul>
+</div>
+
+<h3>COLABORADORES</h3>
+
+<div id="MenuFooter">
+<ul>
+	<li><a href="https://intranet.uniminuto.edu/">Campus de colaboradores </a></li>
+	<li><a href="http://www.uniminuto.edu/web/gestionhumana/colaboradores-retirados">Colaboradores retirados </a></li>
+	<li><a href="http://biblioteca.uniminuto.edu/encuestas/index.php/377285?lang=es">Trabaja con nosotros </a></li>
+</ul>
+</div>
+</article>
+
+<article class="navItem">
+<h3>EXPLORA</h3>
+
+<div id="MenuFooter">
+<ul>
+	<li><a href="http://noticias.uniminuto.edu/">Noticias </a></li>
+	<li><a href="http://publicaciones.uniminuto.edu/">Publicaciones </a></li>
+	<li><a href="http://www.uniminuto.edu/web/donaciones">Donaciones </a></li>
+	<li><a href="http://www.uniminuto.edu/bienestar">Bienestar </a></li>
+	<li><a href="http://www.nuevaevangelizacion.co/">Centro de Formaci&oacute;n para la Nueva Evangelizaci&oacute;n </a></li>
+	<li><a href="http://www.uniminuto.edu/web/progresa">Emprendimientos, pr&aacute;cticas profesionales y empleo </a></li>
+	<li><a href="http://www.uniminuto.edu/web/pastoral">Pastoral </a></li>
+	<li><a href="http://www.uniminuto.edu/web/pcis">Innovaci&oacute;n social </a></li>
+	<li><a href="http://www.uniminuto.edu/proyeccion-social">Proyecci&oacute;n social </a></li>
+	<li><a href="http://www.uniminuto.edu/cooperacion-internacional">Cooperaci&oacute;n internacional </a></li>
+	<li><a href="http://www.mac.org.co/">Museo de Arte Contempor&aacute;neo de Bogot&aacute; </a></li>
+	<li><a href="http://uvd.uniminuto.edu/boletin/museo/">Museo Rafael Garc&iacute;a Herreros </a></li>
+	<li><a href="http://www.uniminutoradio.com/">Radio </a></li>
+	<li><a href="http://www.uniminuto.edu/web/gestionhumana">Gesti&oacute;n humana </a></li>
+</ul>
+</div>
+
+<div class="FondoAzul" id="MenuFooter">
+<ul>
+	<li><a href="http://www.uniminuto.edu/documentos-institucionales">Derechos pecuniarios, Reglamentos y documentos institucionales </a></li>
+</ul>
+</div>
+</article>
+</div>
+</footer>
+
+<div id="FooterCopyRight">Todos los derechos Reservados. UNIMINUTO 2017<br />
+Instituci&oacute;n de Educaci&oacute;n Superior sujeta a inspecci&oacute;n y vigilancia por el Ministerio de Educaci&oacute;n Nacional<br />
+Personer&iacute;a jur&iacute;dica: Resoluci&oacute;n 10345 del 1 de agosto de 1990 MEN</div>
+
+<div id="FooterOrganizacion"><img height="84" id="imgFooter" src="../../Images/Footer.png" usemap="#mapFooter" width="1237" /><map id="mapFooter" name="mapFooter"><area alt="" coords="0,0,95,84" href="http://www.colegiosminutodedios.edu.co/cemid/index.php" shape="rect" target="_blank" /> <area alt="" coords="104,0,199,84" href="http://www.nuevaevangelizacion.co/" shape="rect" target="_blank" /> <area alt="" coords="210,0,305,84" href="https://www.minutodedios.org/" shape="rect" target="_blank" /> <area alt="" coords="316,0,511,84" href="http://minutodedios.fm/en-vivo/" shape="rect" target="_blank" /> <area alt="" coords="524,0,619,84" href="http://www.mdc.org.co/" shape="rect" target="_blank" /> <area alt="" coords="626,0,721,84" href="http://www.cjm.org/index.php/es/" shape="rect" target="_blank" /> <area alt="" coords="731,0,826,84" href="https://www.fundases.net/" shape="rect" target="_blank" /> <area alt="" coords="835,0,930,84" href="http://www.cjm.org/index.php/es/" shape="rect" target="_blank" /> <area alt="" coords="941,0,1136,84" href="https://coopuniminuto.com/" shape="rect" target="_blank" /> <area alt="" coords="1142,0,1237,84" href="http://www.lumencolombia.com/" shape="rect" target="_blank" /></map></div>
+</form>
+</body>
+</html>
